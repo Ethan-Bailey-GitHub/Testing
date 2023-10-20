@@ -135,4 +135,4 @@ def getOriginalData():
 print(caesar_cipher("Sample Data 1234",random.randint(1,62),random.randint(1,62),random.randint(1,62)))  #As the name suggests, random.randint(x,y) picks a random integer from x->y
 print(getOriginalData())
 temp=random.randint(0,len(getOriginalData())-1)
-print(getOriginalData()[0][temp],getOriginalData()[1][temp])
+print(getOriginalData()[0][temp],getOriginalData()[1][temp]) #This outputs a random plain text from the stored values alongside it's encrypted data.
